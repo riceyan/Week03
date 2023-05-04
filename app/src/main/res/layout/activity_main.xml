@@ -34,6 +34,24 @@
         android:layout_height="wrap_content"
         android:text="@string/tvDisplay" />
 
+    <RadioGroup
+        android:id="@+id/radioGroupGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonGenderFemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbgf" />
+
+        <RadioButton
+            android:id="@+id/radioButtonGenderMale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbgm" />
+    </RadioGroup>
+
     <ToggleButton
         android:id="@+id/toggleButtonEnabled"
         android:layout_width="match_parent"
@@ -42,4 +60,5 @@
         android:textOff="@string/disabled"
         android:textOn="@string/enabled"
         android:text="ToggleButton" />
+
 </LinearLayout>
