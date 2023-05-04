@@ -3,4 +3,6 @@
     <string name="buttonDisplay">Display</string>
     <string name="textHint">Enter Something</string>
     <string name="tvDisplay">Display what the user enters</string>
+    <string name="disabled">Disabled</string>
+    <string name="enabled">Enabled</string>
 </resources>
