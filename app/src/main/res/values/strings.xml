@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Week03</string>
+    <string name="buttonDisplay">Display</string>
+    <string name="textHint">Enter Something</string>
+    <string name="tvDisplay">Display what the user enters</string>
 </resources>
